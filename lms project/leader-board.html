@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Leaderboard for your LMS course">
+    <meta name="author" content="Denis pius">
+    <meta name="keywords" content="LMS, leaderboard, course, ranking">
+    <meta property="og:title" content="Leaderboard">
+    <meta property="og:description" content="Leaderboard for Denis LMS course">
+    <meta property="og:image" content="leaderboard-image.png">
+    <title>Leaderboard</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Include your CSS file -->
+    <link rel="icon" type="image/png" href="favicon.png">
+</head>
+<body>
+    <header>
+        <h1>Leaderboard</h1>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/course-content">Course Content</a></li>
+                <li><a href="/assignments">Assignments</a></li>
+                <li><a href="/grades">Grades</a></li>
+                <li><a href="/discussion-forum">Discussion Forum</a></li>
+            </ul>
+        </nav>
+    </header>
+        <main id="leaderboard">
+            <table>
+              <thead>
+                <tr>
+                  <th>Rank</th>
+                  <th>Name</th>
+                  <th>Score</th>
+                </tr>
+              </thead>
+              <tbody id="leaderboard-data">
+                <!-- Dynamically generated leaderboard data will be inserted here -->
+              </tbody>
+            </table>
+    </main>
+    <footer>
+        <p>&copy; 2024 Your LMS</p>
+    </footer>
+
+    <!-- Include your client-side JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>

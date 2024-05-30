@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Dashboard for your LMS course">
+<meta name="author" content="Denis Pius">
+<meta name="keywords" content="LMS, dashboard, course, learning">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Include your CSS file -->
+</head>
+<body>
+    <header>
+        <h1>Welcome to Your Dashboard</h1>
+        <nav>
+            <ul>
+                <li><a href="/leaderboard">Leaderboard</a></li>
+                <li><a href="/course-content">Course Content</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="welcome-message">
+            <h2>Hello, <span id="user-fullname"></span>!</h2>
+            <p>Welcome to your personalized dashboard.</p>
+        </section>
+        <section class="course-progress">
+            <h2>Course Progress</h2>
+            <p>You have completed 50% of the course.</p>
+            <progress value="50" max="100"></progress>
+          </section>
+          
+          <section class="upcoming-assignments">
+            <h2>Upcoming Assignments</h2>
+            <ul>
+              <li>Assignment 1: Due on May 10</li>
+              <li>Assignment 2: Due on May 27</li>
+            </ul>
+          </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Denis LMS</p>
+    </footer>
+
+    <!-- Include your client-side JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>
